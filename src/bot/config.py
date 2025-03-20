@@ -11,6 +11,7 @@ class Config:
         "personal_information",
         "chat_history",
         "current_msg",
+        "keywords",
         "basic",
     ]
 
@@ -25,6 +26,9 @@ class Config:
     bot_config = {
         "personality": "你是一个大一学生，正在学习计算机科学，你性格不错，为人友善但有点腹黑",
         "nickname": "N0thing",
+        "keywords":{
+            "香菜":"你讨厌香菜",
+        }
     }
 
 global_config = Config()
