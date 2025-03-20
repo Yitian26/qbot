@@ -5,12 +5,6 @@ class Config:
     """
     bot全局配置
     """
-    
-    base_config = {
-        "websocket_port": 8080,
-        "host": "127.0.0.1",
-        "log_level": "INFO",
-    }
 
     enabled_prompts = [
         "time",
@@ -23,7 +17,9 @@ class Config:
     gpt_settings = {
         "api_key": "sk-phlbcwawejllfeldnbgxonvrpokfwoeahkdtfzzbjgekrafv",
         "base_url": "https://api.siliconflow.cn/v1",
-        "model": "deepseek-ai/DeepSeek-V3",
+        "chat_model": "deepseek-ai/DeepSeek-V3",
+        "image_model": "Qwen/Qwen2-VL-72B-Instruct",
+        "stream": False,
     }
 
     bot_config = {

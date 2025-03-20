@@ -45,3 +45,5 @@ class promptBuilder:
             prompt += f"{msg.sender.nickname}说：{msg.get_plaintext()};"
         prompt += "</ChatHistory>"
         return prompt
+    
+    
