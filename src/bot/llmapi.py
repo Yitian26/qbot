@@ -1,6 +1,9 @@
 from openai import OpenAI
 
-class gptApi:
+class llmApi:
+    """
+    处理与llm交互
+    """
     def __init__(self,api_key:str,base_url:str,model:str,stream:bool=False):
         self.client = OpenAI(api_key=api_key,base_url=base_url)
         self.model = model
